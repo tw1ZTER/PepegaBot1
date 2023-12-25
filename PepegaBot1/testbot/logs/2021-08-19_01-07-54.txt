@@ -1,0 +1,52 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 19.8M  100 19.8M    0     0  40.9M      0 --:--:-- --:--:-- --:--:-- 41.0M
+npm WARN deprecated node-pre-gyp@0.17.0: Please upgrade to @mapbox/node-pre-gyp: the non-scoped node-pre-gyp package is deprecated and only the @mapbox scoped package will recieve updates in the future
+/tmp/node_override/bin/node-pre-gyp -> /tmp/node_override/lib/node_modules/node-pre-gyp/bin/node-pre-gyp
++ node-pre-gyp@0.17.0
+added 67 packages from 25 contributors in 4.702s
+npm WARN notsup Unsupported engine for discord.js@13.2.0-dev.1629331451.d6e6244: wanted: {"node":">=16.6.0","npm":">=7.0.0"} (current: {"node":"14.3.0","npm":"6.14.5"})
+npm WARN notsup Not compatible with your version of node/npm: discord.js@13.2.0-dev.1629331451.d6e6244
+npm WARN notsup Unsupported engine for @discordjs/builders@0.5.0: wanted: {"node":">=14.0.0","npm":">=7.0.0"} (current: {"node":"14.3.0","npm":"6.14.5"})
+npm WARN notsup Not compatible with your version of node/npm: @discordjs/builders@0.5.0
+npm WARN discordbot@1.0.0 No description
+npm WARN discordbot@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+added 14 packages from 59 contributors, removed 5 packages, updated 2 packages and audited 198 packages in 6.53s
+
+15 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+> discordbot@1.0.0 start /home/minecraft/multicraft/servers/server213389
+> node bot.js
+
+/home/minecraft/multicraft/servers/server213389/node_modules/discord.js/src/rest/APIRequest.js:33
+    agent ??= new https.Agent({ ...this.client.options.http.agent, keepAlive: true });
+            ^
+
+SyntaxError: Unexpected token '='
+    at wrapSafe (internal/modules/cjs/loader.js:1116:16)
+    at Module._compile (internal/modules/cjs/loader.js:1164:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+    at Module.load (internal/modules/cjs/loader.js:1049:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
+    at Module.require (internal/modules/cjs/loader.js:1089:19)
+    at require (internal/modules/cjs/helpers.js:73:18)
+    at Object.<anonymous> (/home/minecraft/multicraft/servers/server213389/node_modules/discord.js/src/rest/RESTManager.js:4:20)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! discordbot@1.0.0 start: `node bot.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the discordbot@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /tmp/npm/_logs/2021-08-19T01_08_11_184Z-debug.log
